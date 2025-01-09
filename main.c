@@ -21,7 +21,7 @@ void trainFitness(struct card *c);
 int main(void) {
     srand(time(NULL));
 
-    int iteration = 0;
+    int iteration = 1;
     int perfect = 0;
 
     while (perfect == 0) {
